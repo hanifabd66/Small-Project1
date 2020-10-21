@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 50px 110px 0px 110px;
+}
+
+.container {
+    background: linear-gradient(to right, #E7F0F2 65%, #FFFFFF 35%) ;
+}
+
+/* start main page */
+
+.baris1 {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 25px;
+}
+
+.baris1 > div {
+    margin: 5px;
+}
+
+.baris1 h2 {
+    font-family: "Montserrat";
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 65px;
+}
+
+.baris1 p {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    text-align: right;
+    border-right: 1px solid #E7F0F2;
+    padding: 15px;
+    margin: 12px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.headerKiri {
+    flex-basis: 1000px;
+}
+
+.headerKanan{
+    flex-basis: 110px;
+}
+
+.baris2 {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: stretch;
+}
+
+.baris2 > div {
+    margin: 5px;
+}
+
+.baris2 button {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    border: unset;
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 20px;
+    width: 98px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    flex-basis: 400px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+#kotakS {
+    flex-basis: 100px;
+}
+
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.barisDetail {
+    flex-basis: 1010px;
+}
+
+.baris2 p {
+    font-family: 'Ubuntu';
+    font-size: 38px;
+    text-align: right;  
+}
+
+.baris3 {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 5px;
+}
+
+.baris3 > div {
+    margin: 5px; 
+}
+
+.baris3 p {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    text-align: right;
+    padding: 15px;
+    border-top: 1px solid #E7F0F2;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.barisDetail1 {
+    flex-basis: 900px;
+}
+
+.barisDetail2 {
+    flex-basis: 220px;   
+}
+
+.kotak {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.kotak > div {
+    width: 215px;
+    height: 114px;
+    margin: 5px;
+    margin-left: 80px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.detail {
+    font-family: 'Roboto';
+    font-size: 9px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 70px;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+
+.detailSub {
+    font-family: 'Ubuntu';
+    font-size: 7px;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+
+hr {
+    display: block;
+    margin-left: -110px;
+    margin-right: -110px;
+    margin-top: 15px;
+    border: 0.5px solid #C4C4C4;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.footer > div {
+    padding: 0 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.footer li{
+    display: inline;
+    font-size: 10px;
+}
+
+#dot1 {
+    margin-top: -10px;
+}
+
+#dot2 {
+    margin-top: -10px;
+}
+
+#dot3 {
+    margin-top: -10px;
+}
+
+/* end main page */
+
+.baris4 {
+    display: flex;
+    flex-basis: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.baris4 a {
+    font-size: 24px;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.baris5 {
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    justify-content: flex-end;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.product {
+    display: flex;
+    align-items: stretch;
+    height: 480px;
+    position: relative;
+    margin: auto;
+}
+  
+.product > div {
+    width: 300px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pImage {
+    display: block;
+    margin: auto;
+    position: relative;
+    flex-basis: 470px;
+    width:  380px;
+}
+
+.img1 img {
+    width: 450px;
+}
+
+.pImage a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 7px;
+    height: 27px;
+    margin-top: -50px;
+}
+ 
+.vectorL {
+    position: relative;
+    font-size: 30px;   
+    margin-left: 10px;
+    background-color: #000000;
+    cursor: pointer;
+}
+  
+.vectorR {
+    position: relative;
+    font-size: 30px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.pContent {
+    flex-basis: 340px;
+    width: 600px;
+    text-align: left;
+}
+
+.headerPage {
+    font-family: 'ubuntu';
+    font-size: 36px;
+    font-weight: 300;
+    color: #363A41;
+}
+
+.price {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    color: #363A41;;
+}
+
+.disc {
+    font-family: 'Ubuntu';
+    font-size: 12.5px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.pDetail {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.pSize {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+    display: inline;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.pOption {
+    position: relative;
+    display: inline-block;
+}
+
+.optionButton {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    display: inline;   
+    padding: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.85);
+    background-color: transparent;
+    cursor: pointer;
+}
+   
+.pButton button {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    display: inline-block;
+    border: unset;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 147px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.pInfoDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    flex-basis: 270px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.pInfoDetail p {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* end product page */
+
+.baris {
+    display: flex;
+    align-items: stretch;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.baris > div {
+    margin: 10px;
+}
+
+.headerShop {
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    flex-basis: 700px;
+    font-weight: 300;
+    color: #000000;
+    cursor: pointer;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    flex-basis: 340px;
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+input {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 900;
+    width: 200px;
+    height: 30px;    
+    text-align: center;
+    border: none;
+    color: #E7F0F2;
+}
+
+.search {
+    border: none;
+    font-size: 20px
+    ;background-color: transparent;
+    cursor: pointer;
+}
+
+.troli{
+    cursor: pointer;
+}
+
+.containerShop {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.containerShop > div {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.containerShop a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000000;
+}
+
+.category {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+    flex-basis: 100px;
+    align-self: flex-end;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 55px;
+    border-left: 1px solid #E7F0F2;
+    color: #000000;
+    cursor: pointer;
+}
+
+.titleCategory {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 750px;
+}
+  
+.titleCategory > div {
+    flex-grow: 1;
+    width: 155px;   
+    height: 116px;
+    margin: 15px;
+    background-color: rgba(231, 240, 242, 0.3);
+    backdrop-filter: blur(6px);
+}
+
+.subTitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.subCategory {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.filter {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+    flex-basis: 60px;
+    align-self: flex-start;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+    padding-left: 55px;
+    border-right: 1px solid #E7F0F2;
+    color: #000000;
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1em;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: -15px;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+  
+.page a.active {
+    font-weight: bolder;
+    color: #000000;
+    background-color: transparent;
+}
